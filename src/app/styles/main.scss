@@ -1,0 +1,21 @@
+// Import abstracts first
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+// Base styles
+@import "base/reset";
+@import "base/typography";
+
+// Layout & components
+@import "layout/header";
+@import "layout/footer";
+@import "components/buttons";
+@import "components/cards";
+@import "components/forms";
+
+// Page-specific styles
+@import "pages/home";
+@import "pages/faq";
+@import "pages/about";
+@import "pages/pricing";
